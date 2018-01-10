@@ -7,6 +7,7 @@
 nvcc add.cu -o /tmp/add_cuda && /tmp/add_cuda
 
 nvprof /tmp/add_cuda
+nvprof --unified-memory-profiling off /tmp/add_cuda
 ```
 
 ## TODO
