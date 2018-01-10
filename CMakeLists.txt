@@ -3,5 +3,5 @@ project(cuda_examples)
 
 set(CMAKE_CXX_STANDARD 14)
 
-set(SOURCE_FILES main.cpp)
+set(SOURCE_FILES add.cu)
 add_executable(cuda_examples ${SOURCE_FILES})
